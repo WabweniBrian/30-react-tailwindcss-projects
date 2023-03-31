@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "lorem Ipsum",
+    "img": "./images/recipes/recipe1.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum praesentium, eaque consequatur explicabo vero quae provident blanditiis labore enim sunt deleniti. Ad officia ratione a qui, iusto, illo, id odit fugiat est doloremque animi alias voluptas consequuntur dignissimos modi nisi ex obcaecati sit tempore quas cupiditate ab vel recusandae!",
+    "ingredients": [
+      "ingridient1",
+      "ingridient2",
+      "ingridient3",
+      "ingridient4",
+      "ingridient5",
+      "ingridient6"
+    ],
+    "procedures": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "lorem Ipsum",
+    "img": "./images/recipes/recipe2.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum praesentium, eaque consequatur explicabo vero quae provident blanditiis labore enim sunt deleniti. Ad officia ratione a qui, iusto, illo, id odit fugiat est doloremque animi alias voluptas consequuntur dignissimos modi nisi ex obcaecati sit tempore quas cupiditate ab vel recusandae!",
+    "ingredients": [
+      "ingridient1",
+      "ingridient2",
+      "ingridient3",
+      "ingridient4",
+      "ingridient5",
+      "ingridient6"
+    ],
+    "procedures": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "lorem Ipsum",
+    "img": "./images/recipes/recipe3.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum praesentium, eaque consequatur explicabo vero quae provident blanditiis labore enim sunt deleniti. Ad officia ratione a qui, iusto, illo, id odit fugiat est doloremque animi alias voluptas consequuntur dignissimos modi nisi ex obcaecati sit tempore quas cupiditate ab vel recusandae!",
+    "ingredients": [
+      "ingridient1",
+      "ingridient2",
+      "ingridient3",
+      "ingridient4",
+      "ingridient5",
+      "ingridient6"
+    ],
+    "procedures": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "lorem Ipsum",
+    "img": "./images/recipes/recipe4.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas laborum praesentium, eaque consequatur explicabo vero quae provident blanditiis labore enim sunt deleniti. Ad officia ratione a qui, iusto, illo, id odit fugiat est doloremque animi alias voluptas consequuntur dignissimos modi nisi ex obcaecati sit tempore quas cupiditate ab vel recusandae!",
+    "ingredients": [
+      "ingridient1",
+      "ingridient2",
+      "ingridient3",
+      "ingridient4",
+      "ingridient5",
+      "ingridient6"
+    ],
+    "procedures": [
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor suscipit minus quibusdam quidem, accusamus cumque consequatur voluptatem est, sequi aliquam quamnisi possimus neque eos atque architecto maxime optio excepturi sed doloremque aperiamtenetur"
+    ]
+  }
+]

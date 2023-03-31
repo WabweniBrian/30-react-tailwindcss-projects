@@ -1,0 +1,57 @@
+[{
+        "id": 1,
+        "image": "../images/city (2).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 2,
+        "image": "../images/city (1).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 3,
+        "image": "../images/city (3).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 4,
+        "image": "../images/city (4).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 5,
+        "image": "../images/city (5).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 6,
+        "image": "../images/city (6).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 7,
+        "image": "../images/city (7).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    },
+    {
+        "id": 8,
+        "image": "../images/city (8).jpg",
+        "name": "Best of paris in 7 days tour",
+        "price": "1,995",
+        "info": " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum corrupti sapiente consequuntur temporibus, voluptates nobis aspernatur impedit hic atque inventore repudiandae eius in id, doloremque dolor ex perferendis, facilis laboriosam earum eos debitis quibusdam veritatis? Totam repellendus quaerat, cum deleniti quo velit amet deserunt omnis odit aut dolor qui, similique enim quasi officia iure nostrum molestias eligendi officiis ullam facilis."
+    }
+]

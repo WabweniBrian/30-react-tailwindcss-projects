@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "location": "San Francisco, CA",
+    "description": "We are seeking a highly skilled and motivated software engineer to join our team. The successful candidate will have experience with a variety of programming languages and be able to work on a wide range of projects. Responsibilities include designing, developing, and maintaining software applications, collaborating with cross-functional teams, and solving complex technical problems.",
+    "company": "Amazon",
+    "url": "https://jobs.github.com/positions/12345",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/amazon.png"
+  },
+  {
+    "id": 2,
+    "title": "DevOps Engineer",
+    "location": "New York, NY",
+    "description": "We are seeking a highly skilled and experienced DevOps engineer to join our team. The successful candidate will have a strong background in automation and infrastructure as code, and be comfortable working in a fast-paced environment. Responsibilities include designing and implementing continuous delivery pipelines, automating infrastructure, and collaborating with software engineers to ensure the reliability and scalability of our systems.",
+    "company": "Facebook",
+    "url": "https://jobs.github.com/positions/12346",
+    "type": "part time",
+    "company_logo": "./images/companyLogos/Facebook.png"
+  },
+  {
+    "id": 3,
+    "title": "Data Scientist",
+    "location": "Seattle, WA",
+    "description": "We are seeking a talented data scientist to join our team. The successful candidate will have experience with machine learning and data analysis, and be comfortable working with large datasets. Responsibilities include building and deploying machine learning models, analyzing data to inform business decisions, and collaborating with cross-functional teams to drive data-driven innovation.",
+    "company": "Fox News",
+    "url": "https://jobs.github.com/positions/12347",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/fox-news.png"
+  },
+
+  {
+    "id": 4,
+    "title": "Product Manager",
+    "location": "Boston, MA",
+    "description": "We are seeking a driven product manager to join our team. The successful candidate will have experience leading cross-functional teams to deliver successful products, and be comfortable working in a fast-paced environment. Responsibilities include defining and prioritizing product roadmap, gathering and synthesizing customer feedback, and collaborating with engineering and design teams to bring products to market.",
+    "company": "GitHub",
+    "url": "https://jobs.github.com/positions/12348",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/github.png"
+  },
+  {
+    "id": 5,
+    "title": "Front-End Developer",
+    "location": "Chicago, IL",
+    "description": "We are seeking a skilled front-end developer to join our team. The successful candidate will have experience with modern web technologies and be comfortable working with a variety of languages and frameworks. Responsibilities include designing and implementing user-facing features, collaborating with design and engineering teams, and optimizing performance and usability.",
+    "company": "Netflix",
+    "url": "https://jobs.github.com/positions/12349",
+    "type": "part time",
+    "company_logo": "./images/companyLogos/netflix.png"
+  },
+  {
+    "id": 6,
+    "title": "Security Engineer",
+    "location": "San Jose, CA",
+    "description": "We are seeking a highly skilled security engineer to join our team. The successful candidate will have experience with security engineering and be able to work on a wide range of projects. Responsibilities include designing, implementing, and maintaining secure systems, collaborating with cross-functional teams, and identifying and addressing potential security vulnerabilities.",
+    "company": "Pinterest",
+    "url": "https://jobs.github.com/positions/12350",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/pinterest.png"
+  },
+  {
+    "id": 7,
+    "title": "Quality Assurance Engineer",
+    "location": "Portland, OR",
+    "description": "We are seeking a talented quality assurance engineer to join our team. The successful candidate will have experience testing software and be comfortable working in a fast-paced environment. Responsibilities include designing and implementing test cases, collaborating with software engineers to ensure the quality of our products, and identifying and addressing potential bugs and issues.",
+    "company": "The Guardian",
+    "url": "https://jobs.github.com/positions/12351",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/theguardian.png"
+  },
+  {
+    "id": 8,
+    "title": "Designer",
+    "location": "Los Angeles, CA",
+    "description": "We are seeking a talented designer to join our team. The successful candidate will have experience with user experience (UX) and user interface (UI) design, and be comfortable working with cross-functional teams to deliver successful products. Responsibilities include designing and prototyping user flows, collaborating with product and engineering teams, and creating high-quality visual designs.",
+    "company": "Time Machine",
+    "url": "https://jobs.github.com/positions/12352",
+    "type": "part time",
+    "company_logo": "./images/companyLogos/Time-Machine.png"
+  },
+  {
+    "id": 9,
+    "title": "Technical Project Manager",
+    "location": "Denver, CO",
+    "description": "We are seeking a highly skilled technical project manager to join our team. The successful candidate will have experience managing software development projects and be comfortable working with cross-functional teams. Responsibilities include defining project scope and timelines, coordinating with engineering and design teams, and ensuring the successful delivery of projects.",
+    "company": "twitter",
+    "url": "https://jobs.github.com/positions/12353",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/twitter.png"
+  },
+  {
+    "id": 10,
+    "title": "Cloud Engineer",
+    "location": "Dallas, TX",
+    "description": "We are seeking a highly skilled cloud engineer to join our team. The successful candidate will have experience with cloud computing and be able to work on a wide range of projects. Responsibilities include designing, implementing, and maintaining cloud-based systems, collaborating with cross-functional teams, and optimizing performance and cost efficiency.",
+    "company": "WeatherDotCom",
+    "url": "https://jobs.github.com/positions/12354",
+    "type": "full time",
+    "company_logo": "./images/companyLogos/weatherdotcom.png"
+  },
+  {
+    "id": 11,
+    "title": "Product Designer",
+    "location": "Phoenix, AZ",
+    "description": "We are seeking a talented product designer to join our team. The successful candidate will have experience designing software products and be comfortable working with cross-functional teams to deliver successful products. Responsibilities include designing and prototyping user flows, collaborating with product and engineering teams, and creating high-quality visual designs.",
+    "company": "Xing",
+    "url": "https://jobs.github.com/positions/12355",
+    "type": "part time",
+    "company_logo": "./images/companyLogos/Xing.png"
+  },
+  {
+    "id": 12,
+    "title": "Full-Stack Developer",
+    "location": "Miami, FL",
+    "description": "We are seeking a skilled full-stack developer to join our team. The successful candidate will have experience with a variety of programming languages and be comfortable working on both front-end and back-end development. Responsibilities include designing and implementing software applications, collaborating with cross-functional teams, and solving complex technical problems.",
+    "company": "Yandex",
+    "url": "https://jobs.github.com/positions/12356",
+    "type": "part time",
+    "company_logo": "./images/companyLogos/yandex.png"
+  }
+]

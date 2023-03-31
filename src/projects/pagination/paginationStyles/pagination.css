@@ -1,0 +1,59 @@
+/* -------------------------PAGINATION---------------------- */
+.wb-pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0 1rem;
+  user-select: none;
+}
+
+.wb-pagination::-webkit-scrollbar {
+  display: none;
+}
+
+.wb-pagination .pagination-item {
+  list-style: none;
+}
+
+.wb-pagination .pagination-item .pagination-link {
+  color: #818591;
+  text-decoration: none;
+  width: 2.2rem;
+  height: 2.2rem;
+  display: grid;
+  place-items: center;
+  margin: 0 0.6rem;
+  font-size: 0.9rem;
+}
+
+.wb-pagination .prev,
+.wb-pagination .next {
+  color: #d400a6;
+  display: inline-flex;
+}
+
+.wb-pagination .prev {
+  margin-right: 1rem;
+}
+.wb-pagination .next {
+  margin-left: 1rem;
+}
+
+.disabled {
+  opacity: 0.4;
+}
+
+.wb-pagination .pagination-item.pagination-link-active .pagination-link {
+  background-color: #d400a6;
+  color: #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 640px) {
+  .wb-pagination {
+    max-width: 300px;
+    width: 100%;
+    overflow: auto;
+  }
+}

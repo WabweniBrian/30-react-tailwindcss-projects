@@ -1,13 +1,416 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: myFont;
+  src: url("../public/Questrial-Regular.ttf") format("truetype");
+}
+
+body {
+  @apply font-questrial;
+  font-family: myFont;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #828a91;
+  border-radius: 1rem;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #0b0f19;
+}
+
+.hide_scollbar::-webkit-scrollbar {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply font-bold;
+}
+
+p {
+  @apply !text-[15px];
+}
+
+.back-to-topbtn {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.back-to-topbtn.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.heading {
+  @apply w-fit mx-auto relative before:absolute before:w-1/2 before:h-1 before:bottom-0 before:left-1/2 before:-translate-x-1/2;
+}
+
+.active {
+  @apply text-blue-400;
+}
+
+.isOpen {
+  @apply max-h-screen p-4;
+}
+
+.tab-btn.active {
+  @apply text-teal-400 border-b-2 border-teal-400 md:border-b-0 md:border-l-2 md:pl-2;
+}
+
+.activeSlide {
+  @apply opacity-100 translate-x-0;
+}
+.lastSlide {
+  @apply opacity-100 -translate-x-full;
+}
+.nextSlide {
+  @apply opacity-100 translate-x-full;
+}
+
+.navbar a {
+  @apply text-sm hover:text-blue-400 transition;
+}
+
+.showmenu {
+  @apply max-h-screen;
+}
+
+.modal {
+  @apply fixed w-screen h-screen bg-black/50 left-0 top-0 right-0 bottom-0 transition-a opacity-0 pointer-events-none z-20;
+}
+
+.showModal {
+  @apply opacity-100 translate-x-0 translate-y-0 pointer-events-auto;
+}
+
+.alert.danger {
+  @apply bg-red-700/20 text-red-700;
+}
+.alert.success {
+  @apply bg-green-700/20 text-green-700;
+}
+
+.alert.show {
+  @apply -translate-x-1/2 translate-y-0;
+  animation: bounce 0.5s ease-in-out forwards;
+}
+
+@keyframes bounce {
+  0% {
+    top: -0.5rem;
+  }
+  50% {
+    top: 1.2rem;
+  }
+  100% {
+    top: 0.5rem;
+  }
+}
+
+ul.todos li.completed .check-circle .icon {
+  @apply block;
+}
+
+ul.todos li.completed .check-circle {
+  @apply bg-checkBackground border-none;
+}
+
+ul.todos li.completed .todo-text {
+  @apply line-through text-darkGrayishBlue;
+}
+
+.todo-alert.success {
+  @apply text-white bg-green-700;
+}
+.todo-alert.danger {
+  @apply text-white bg-red-700;
+}
+
+.sub-menu {
+  @apply before:block before:w-0 before:h-0 before:absolute before:-translate-x-1/2 before:-top-[7px] before:left-1/2 before:border-x-[7px] before:border-x-transparent before:border-b-[7px] before:border-b-white/80;
+}
+
+.sub-menu.show {
+  @apply block;
+}
+
+.sidebar-wrapper {
+  z-index: -1;
+  visibility: hidden;
+}
+
+.sidebar-wrapper.show {
+  @apply scale-100;
+  z-index: 50;
+  visibility: visible;
+}
+
+.hero::before {
+  z-index: -1;
+}
+
+/* Text gradient */
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #f6defa 0.89%,
+    #7651dc 17.23%,
+    #d6c6ff 42.04%,
+    #ba9fff 55.12%,
+    #956cff 71.54%,
+    #b727ff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.form-input .input-control:invalid[focused="true"] {
+  @apply border border-red-500;
+}
+
+.form-input .input-control:valid[focused="true"] {
+  @apply border border-green-500;
+}
+
+.form-input .input-control:invalid[focused="true"] ~ span {
+  @apply block;
+}
+
+.input-radio {
+  display: flex;
+  align-items: center;
+}
+
+.input-radio label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.input-radio input[type="radio"] {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.input-radio label::before {
+  content: "";
+  width: 1.2rem;
+  height: 1.2rem;
+  color: var(--primary-color);
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  border: 1px solid #979dc0;
+}
+
+.input-radio label::after {
+  position: absolute;
+  content: "";
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-left: 0.2855em;
+  margin-top: -0.06rem;
+  border-radius: 50%;
+  background: #979dc0;
+  transform: scale(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.input-radio input[type="radio"]:checked + label::after {
+  transform: scale(1);
+}
+
+.cart-bg {
+  background-position: top -2rem right -2rem;
+}
+
+.product-grid .card {
+  animation: fadeZoom 0.3s ease-in-out;
+}
+
+@keyframes fadeZoom {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.cart-items-list::-webkit-scrollbar {
+  display: none;
+}
+
+.btn-circle {
+  @apply w-10 h-10 rounded-full shadow-normal bg-white flex-center-center hover:text-yellow-500 transition-a;
+}
+
+.cart-modal.open,
+.cart-dialog.open {
+  @apply opacity-100 translate-x-0 pointer-events-auto;
+}
+
+.loader {
+  border-block-start-color: transparent;
+  animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.heading-auth {
+  @apply relative before:absolute before:w-1/2 before:h-[2px] before:top-1/2 before:bg-gray-300 before:-left-2 before:-translate-x-full;
+  @apply relative after:absolute after:w-1/2 after:h-[2px] after:top-1/2 after:bg-gray-300 after:-right-2 after:translate-x-full;
+}
+
+.movie-modal.open,
+.movie-dialog.open {
+  @apply translate-x-0 pointer-events-auto opacity-100;
+}
+
+.loader {
+  @apply w-20 h-20 border-4 border-orange-500 rounded-full;
+  border-block-start-color: transparent;
+  animation: rotate 1s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.filterBtn.active {
+  @apply !bg-green-700;
+}
+
+ul.pagination.no-border {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.527),
+    -4px -4px 8px rgba(37, 36, 36, 0.415);
+  cursor: pointer;
+}
+
+ul.pagination.no-border:hover {
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.527),
+    inset -4px -4px 8px rgba(37, 36, 36, 0.415);
+}
+
+ul.pagination li.active {
+  @apply bg-orange-600 text-white shadow-lg shadow-orange-600;
+}
+
+.form-input input {
+  @apply outline-none h-8 border border-[lightgray] rounded-sm px-[0.8rem] transition-a w-full text-base mb-5;
+}
+
+.form-input label {
+  @apply absolute top-[0.15rem] left-[0.9rem] text-[#8d9193] transition-a  px-[0.15rem] pointer-events-none;
+}
+
+.form-input input:focus,
+.form-input input:valid {
+  @apply !border-green-500;
+}
+
+.form-input input:focus ~ label,
+.form-input input:valid ~ label {
+  @apply -top-[12px] left-[15px] text-sm text-green-500 bg-white;
+}
+
+.recipe-filter li.active {
+  @apply bg-green-600 text-white;
+}
+
+.recipe-filter.open-menu {
+  @apply scale-100 origin-top;
+}
+
+.modal-dialog .modal-body::-webkit-scrollbar-thumb {
+  background-color: #c2cdd5;
+}
+.modal-dialog .modal-body::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background-color: #dadfe6;
+  border-radius: 1rem;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+  background-color: #fff !important;
+}
+
+table th,
+table td {
+  border: 0.0625rem solid #d6dcee;
+}
+input:autofill,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: #8d9193;
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-input input:-webkit-autofill {
+  @apply border-green-500;
+}
+
+input:-webkit-autofill ~ label {
+  @apply -top-[12px] left-[15px] text-sm text-green-500 bg-white;
+}
+
+.toggle-btn.active .dot {
+  @apply translate-x-6;
+}
+
+.input-check label {
+  @apply relative cursor-pointer flex items-center text-slate-500 select-none;
+}
+
+.input-check input[type="checkbox"] {
+  @apply cursor-pointer opacity-0 absolute;
+}
+
+.input-check label::before {
+  content: "";
+  @apply w-[1.1rem] h-[1.1rem] mr-2 rounded-md border border-slate-400 dark:border-slate-700;
+}
+
+.input-check input[type="checkbox"]:checked + label::before {
+  content: "✔";
+  @apply grid place-items-center text-slate-100 text-[0.7rem] bg-slate-400 dark:bg-slate-700;
+}
+
+.jobs-pagination ul li.active {
+  @apply bg-blue-500 shadow-blue-500;
 }

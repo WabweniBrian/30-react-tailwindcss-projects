@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Extinction",
+    "overview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem odio assumenda quos nesciunt vero? Veniam, aliquam ullam consequuntur sunt quis nihil cupiditate possimus optio eius reprehenderit numquam dolores, facilis consectetur?",
+    "rating": 8.7,
+    "released": "06/08/2016",
+    "poster": "./images/1 (16).jpg"
+  },
+  {
+    "id": 2,
+    "title": "AquaMan",
+    "overview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem odio assumenda quos nesciunt vero? Veniam, aliquam ullam consequuntur sunt quis nihil cupiditate possimus optio eius reprehenderit numquam dolores, facilis consectetur?",
+    "rating": 5.7,
+    "released": "12/02/2019",
+    "poster": "./images/1 (34).jpg"
+  },
+  {
+    "id": 3,
+    "title": "Extinction",
+    "overview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem odio assumenda quos nesciunt vero? Veniam, aliquam ullam consequuntur sunt quis nihil cupiditate possimus optio eius reprehenderit numquam dolores, facilis consectetur?",
+    "rating": 8.7,
+    "released": "06/08/2016",
+    "poster": "./images/1 (16).jpg"
+  },
+  {
+    "id": 4,
+    "title": "AquaMan",
+    "overview": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem odio assumenda quos nesciunt vero? Veniam, aliquam ullam consequuntur sunt quis nihil cupiditate possimus optio eius reprehenderit numquam dolores, facilis consectetur?",
+    "rating": 3.7,
+    "released": "12/02/2019",
+    "poster": "./images/1 (34).jpg"
+  }
+]
